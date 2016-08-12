@@ -1,18 +1,15 @@
+/* TODO: Fix image size */
+img {
+    width: 100%;
+}
 body {
-    background-image: url("header_image.jpg");
     font-family:arial;
 }
-h1, h2 {
+h1 {
+    text-align: center;
     color:#666;
 }
 p {
     color:black;
     padding:5px;
-}
-/* testing ids and classes */
-.secondary {
-    color:black;
-}
-#special {
-    color:black;
 }
