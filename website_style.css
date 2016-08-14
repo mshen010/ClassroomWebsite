@@ -1,15 +1,36 @@
-/* TODO: Fix image size */
-img {
+aside {
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 100px;
+    float:left;
+}
+nav {
+    background-color: antiquewhite;
+    padding: 15px;
     width: 100%;
 }
 body {
     font-family:arial;
 }
 h1 {
+    padding: 15px;
     text-align: center;
     color:#666;
 }
 p {
     color:black;
     padding:5px;
+}
+ul {
+    list-style-type: none;
+    overflow: auto;
+}
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
 }
