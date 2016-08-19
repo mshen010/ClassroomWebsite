@@ -1,36 +1,53 @@
-aside {
-    display: inline-block;
-    background-color: antiquewhite;
-    padding: 100px;
-    float:left;
+
+#heading {
+    padding: 10px 50px;
+    border: 10px solid navy;
+    margin: 5px;    
 }
-nav {
-    background-color: antiquewhite;
-    padding: 15px;
-    width: 100%;
+#navigation {
+    padding: 0px;
+    border: 5px;
+    margin: 0px 5px;
 }
-body {
-    font-family:arial;
+#side {
+    float: right;
+    padding: 0px 200px 0px 0px;
+    border: 0px;
+    margin: 5px;
 }
-h1 {
-    padding: 15px;
-    text-align: center;
-    color:#666;
+.topics {
+    padding: 0px;
+    border: 5px;
+    margin: 5px 5px 20px 0px;
+}
+#image {
+    padding: 0px;
+    border: 0px;
+    margin: 30px 0px 0px 5px;
+}
+#paragraph {
+    width: 75%;
+    padding: 0px;
+    border: 5px;
+    margin: 5px 5px 50px 0px;
 }
 p {
+    font-size: 18px;
+    font-family: Arial;
     color:black;
     padding:5px;
 }
+h1 {
+    font-family: Arial;
+}
 ul {
+    font-family: Arial;
+    font-size: 20px;
     list-style-type: none;
     overflow: auto;
+    padding: 0px;
 }
 li {
     float: left;
-    border-right: 1px solid black;
-}
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 0px 75px;
 }
