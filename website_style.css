@@ -1,7 +1,10 @@
 
+html {
+    background: url(cork_background.jpg);
+}
 #heading {
     padding: 10px 50px;
-    border: 10px solid navy;
+    border-bottom: 10px solid navy;
     margin: 5px;    
 }
 #navigation {
@@ -9,21 +12,18 @@
     border: 5px;
     margin: 0px 5px;
 }
-#side {
-    float: right;
-    padding: 0px 200px 0px 0px;
-    border: 0px;
-    margin: 5px;
-}
-.topics {
-    padding: 0px;
-    border: 5px;
-    margin: 5px 5px 20px 0px;
-}
-#image {
+.image {
+    float: left;
     padding: 0px;
     border: 0px;
     margin: 30px 0px 0px 5px;
+}
+#side {
+    float: left;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    margin: 5px;
+    overflow-y: auto;
 }
 #paragraph {
     width: 75%;
@@ -31,7 +31,7 @@
     border: 5px;
     margin: 5px 5px 50px 0px;
 }
-p {
+#welcome {
     font-size: 18px;
     font-family: Arial;
     color:black;
@@ -50,4 +50,8 @@ ul {
 li {
     float: left;
     padding: 0px 75px;
+}
+#foot {
+    border-top: 1px solid black;
+    font-size: 12px;
 }
